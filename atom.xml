@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wow-azeroth.github.io/</id>
     <title>荆棘谷的青山</title>
-    <updated>2020-12-08T20:15:36.534Z</updated>
+    <updated>2020-12-08T20:18:21.426Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wow-azeroth.github.io/"/>
     <link rel="self" href="https://wow-azeroth.github.io/atom.xml"/>
@@ -16,13 +16,6 @@
         <link href="https://wow-azeroth.github.io/post/photoshop-xue-xi-bi-ji/">
         </link>
         <updated>2020-12-08T20:06:23.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[测试博文]]></title>
-        <id>https://wow-azeroth.github.io/post/ce-shi-bo-wen/</id>
-        <link href="https://wow-azeroth.github.io/post/ce-shi-bo-wen/">
-        </link>
-        <updated>2020-12-08T03:13:07.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
