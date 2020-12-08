@@ -2,12 +2,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
     <meta name="description" content="同步测试✏️
-..." />
+" />
     <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com/media/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com/styles/main.css">
+    <link rel="stylesheet" href="https://wow-azeroth.github.io//media/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://wow-azeroth.github.io//styles/main.css">
     
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/dracula.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/rainbow.min.css">
     
     <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/clipboard.min.js"></script>
@@ -21,12 +21,13 @@
     
     <style>
         .markdownIt-TOC {
+            margin-left: 28%;
             padding-left: 2px;
-            width: 100%;
+            width: 80%;
         }
 
         .markdownIt-TOC li {
-            padding-left: 2%;
+            padding-left: 8%;
         }
     </style>
     
@@ -37,8 +38,8 @@
         <div class="message" style="opacity:0"></div>
         <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
     </div>
-    <div id="codeCopyText" style="display: none"></div>
-    <div id="domainname" style="display:none">https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com</div>
+    <div id="codeCopyText" style="display: none">代码复制成功了哦</div>
+    <div id="domainname" style="display:none">https://wow-azeroth.github.io/</div>
     <!-- 响应式布局，针对PC端内容显示 -->
     <div id="content">
         <div>
@@ -75,7 +76,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com">荆棘谷的青山&nbsp;&nbsp;|</a>
+        <a class="navbar-brand" href="https://wow-azeroth.github.io/">荆棘谷的青山&nbsp;&nbsp;|</a>
         <span class="navbar-brand mbapspan"><i id="mbaplayer" class="fa fa-play-circle-o" aria-hidden="true"
             style="font-size: 28px;top: 12px;position: absolute;" onclick="aplayerPlay();"></i></span>
       </div>
@@ -94,14 +95,6 @@
           
           
           <li>
-            <a href="/archives">
-              归档
-            </a>
-          </li>
-          
-          
-          
-          <li>
             <a href="/tags">
               标签
             </a>
@@ -110,13 +103,26 @@
           
           
           <li>
-            <a href="/post/about">
-              关于
+            <a href="/archives">
+              时光机
             </a>
           </li>
           
           
           
+          <li>
+            <a href="/post/about">
+              玛拉顿公主
+            </a>
+          </li>
+          
+          
+          
+          <li><a href="https://wow-azeroth.github.io//talk">说说</a></li>
+          
+          
+          <li><a href="https://wow-azeroth.github.io//friends">友链</a></li>
+
           
         </ul>
       </div><!-- /.navbar-collapse -->
@@ -158,6 +164,92 @@
             <div class="row">
                 <div class="side"><body>
     
+    <div id=side>
+        <div class="avatar-border">
+            <img src="https://wow-azeroth.github.io//images/avatar.png?v=1607440897393" class="avatar">
+        </div>
+        <div class="sitename">荆棘谷的青山</div>
+        <span class="describtion" data-text='["非技术类博客"]'>&nbsp;</span>
+        
+        <div class="search">
+            <!-- <input type="text" class="search-input" placeholder="标题搜索(●'◡'●)" /> -->
+            <input type="text" class="search-input" placeholder="标题搜索 (✿◡‿◡)">
+            <div class="search-results"></div>
+        </div>
+        
+    <div class="share-button">
+        <span>社交按钮</span>
+        
+        
+        
+        
+        
+        
+    </div>
+    <div id="qq" style="display:none"></div>
+    
+    
+    <div class="mchocie describtion">
+        <a href="/" class="menubutton">
+            首页
+        </a>
+    </div>
+    
+    
+    
+    <div class="mchocie describtion">
+        <a href="/tags" class="menubutton">
+            标签
+        </a>
+    </div>
+    
+    
+    
+    <div class="mchocie describtion">
+        <a href="/archives" class="menubutton">
+            时光机
+        </a>
+    </div>
+    
+    
+    
+    <div class="mchocie describtion">
+        <a href="/post/about" class="menubutton">
+            玛拉顿公主
+        </a>
+    </div>
+    
+    
+    
+    <div class="mchocie describtion">
+        <a href="https://wow-azeroth.github.io//talk" class="menubutton">说说</a>
+    </div>
+    
+    
+    <div class="mchocie describtion">
+        <a href="https://wow-azeroth.github.io//friends" class="menubutton">友人帐</a>
+    </div>
+    
+    <hr>
+    <div id="footinfo">Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | Theme: <a
+        href="https://github.com/850552586/gridea-theme-fog">Fog</a></div>
+    
+    
+    <script async src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/busuanzi.pure.mini.js"></script>
+    <div id="vistornum">
+        <span id="busuanzi_container_site_uv">
+            <i class="fa fa-heart" aria-hidden="true" style="color: red;"></i> 总访问量:<span id="busuanzi_value_site_pv"></span>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <i class="fa fa-user-o" aria-hidden="true"></i> 访问人数:<span id="busuanzi_value_site_uv"></span>
+        </span>
+    </div>
+    <div style="color:white">Copyright © 2020  备案号: 鄂ICP备...号</div>
+    
+    </div>
+
+
+<script src="https://wow-azeroth.github.io//media/js/wordshow.js"></script>
+    
+
 
 
 
@@ -295,9 +387,17 @@
 </script>
 </div>
                 
-            <div class="col-md-2 col-lg-3"></div>
-            <div id="postmain" class="col-xs-12 col-sm-12 col-md-8  col-lg-6 posttop" >
-                <link rel="stylesheet" href="https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com/media/css/font-awesome.css">
+                <div id="tab1" class="tab">
+                    <div class="bars">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="close"></div>
+                </div>
+                <div class="col-md-1 col-lg-3"></div>
+                <div id="main" class="col-xs-12 col-sm-12 col-md-10 col-lg-7">
+                    <link rel="stylesheet" href="https://wow-azeroth.github.io//media/css/font-awesome.css">
 
 <body>
     <div class="allcontent" id="postdetail">
@@ -305,7 +405,7 @@
             
             <div class="postdetailimg" style="width:100%;overflow: hidden;">
                 
-                <img src="" class="postimage">
+                <img src="\media\images\custom-postdefaultimage.jpg" class="postimage">
                 
             </div>
             <div class="postinfo-detail">
@@ -320,24 +420,53 @@
             <div id="texttitle" style="text-align: center">
                 <h2>测试博文</h2>
                 <!-- id 将作为查询条件 -->
-                <div id="pl" style="display:none">https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com/post/ce-shi-bo-wen/</div>
-                <div id="rootaddr" style="display:none">https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com</div>
+                <div id="pl" style="display:none">https://wow-azeroth.github.io/post/ce-shi-bo-wen/</div>
+                <div id="rootaddr" style="display:none">https://wow-azeroth.github.io/</div>
                 <span id="hotnum">
                     <h4><i class="fa fa-eye" aria-hidden="true" style="color: #FF8C00;"></i>&nbsp;&nbsp;热度</i>: <i
                             class="hotnum">loading...</i></h4>
                 </span>
             </div>
             <div class="text ">
-                <p><img src="https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com/post-images/1607397957757.png" alt="" loading="lazy">同步测试✏️</p>
+                <p><img src="https://wow-azeroth.github.io//post-images/1607397957757.png" alt="" loading="lazy">同步测试✏️</p>
 
             </div>
             <hr style="width: 80%;">
             
+            <div class="sharebtnContainer">
+                <button type="button" class="sharebtn">转载分享</button>
+            </div>
+            <div class="shareContainer">
+                <div class="share" style="height:30px;background: white;">
+                    <a class="qq" href=""><i><img class="shareicon"
+                                src="https://wow-azeroth.github.io//media/images/QQ.png" alt=""></i></a>
+                    <a class="wechat" href=""><i><img class="shareicon"
+                                src="https://wow-azeroth.github.io//media/images/wechat.png" alt=""></i></a>
+                    <a class="weibo" href=""><i><img class="shareicon"
+                                src="https://wow-azeroth.github.io//media/images/weibo.png" alt=""></i></a>
+                    <a class="qzone" href=""><i><img class="shareicon"
+                                src="https://wow-azeroth.github.io//media/images/qzone.png" alt=""></i></a>
+                    <a class="douban" href=""><i><img class="shareicon"
+                                src="https://wow-azeroth.github.io//media/images/douban.png" alt=""></i></a>
+                    <a class="facebook" href=""><i><img class="shareicon"
+                                src="https://wow-azeroth.github.io//media/images/facebook.png" alt=""></i></a>
+                    <a class="twitter" href=""><i><img class="shareicon"
+                                src="https://wow-azeroth.github.io//media/images/twitter.png" alt=""></i></a>
+                </div>
+            </div>
+            
+            
+            <div class="donateContainer">
+                <img src="https://wow-azeroth.github.io//media/images/donate.png" alt="" class="donateImg">
+            </div>
+            <div class="donateContainer">
+                <img src="" alt="" class="donate">
+            </div>
             
             <div class="postfooter">
                 <ul class="post-copyright">
                     <li><strong>文章作者：</strong></li>
-            <li><strong>原文链接：</strong>https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com/post/ce-shi-bo-wen/</li>
+            <li><strong>原文链接：</strong>https://wow-azeroth.github.io/post/ce-shi-bo-wen/</li>
             <li><strong>版权声明：</strong>本博客所有文章除特别声明外，均采用<i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA
                 许可协议。转载请注明出处！</li>
             </ul>
@@ -346,15 +475,15 @@
             
             
             <div class="next-post-pc">
-                <div id="npcontainer" onclick="window.location.href= 'https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com/post/hello-gridea/';return false">
+                <div id="npcontainer" onclick="window.location.href= 'https://wow-azeroth.github.io/post/hello-gridea/';return false">
                     
-                    <img src="https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com/post-images/hello-gridea.png" style="width: 100%;" class="opimg">
+                    <img src="https://wow-azeroth.github.io//post-images/hello-gridea.png" style="width: 100%;" class="opimg">
                     
                     <h4 class="optitle">Hello Gridea</h4>
                 </div>
             </div>
             <div class="next-post">
-                下一篇 <a href="https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com/post/hello-gridea/">Hello Gridea</a>
+                下一篇 <a href="https://wow-azeroth.github.io/post/hello-gridea/">Hello Gridea</a>
             </div>
             
         </div>
@@ -370,20 +499,106 @@
     pl = pl.replace(rootaddr, "");
     $("#hotnum").attr('id', pl);
 </script>
-                <div id="comment" class="comment" style="background: white">
+                <div id="comment"  class="comment" style="background: white">
                     <div class="commentcontainer">
                         
-                        <p>请到客户端“主题--自定义配置--valine”中填入ID和KEY</p>
+                        
+                        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '',
+    clientSecret: '',
+    repo: '',
+    owner: '',
+    admin: [''],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+                        
+                        
                         
                     </div>
                 </div>
+                </div>
+                <div class="col-md-1 col-lg-2"></div>
+                <div id="bg">
+                </div>
             </div>
-            <div class="col-md-2 col-lg-3">
-            </div>
-            <div id="bg">
-            </div>
-        </div>
+            
         
+        <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+</head>
+<body>
+    <div class="miniMode">
+        <meting-js id="myaplayer" server="netease" type="playlist" fixed="true" order="default">
+        </meting-js>
+    </div>   
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+<script>
+    var aplayerid = "";
+    var aplayerserver = "netease";
+    var aplayerorder = "random";
+    var aplayerautoplay = "true";
+    var aplayer = $("#myaplayer");
+    aplayer.attr("server",aplayerserver);
+    aplayer.attr("id",aplayerid);
+    aplayer.attr("order",aplayerorder);
+    if(aplayerautoplay=="true")
+        aplayer.attr("autoplay","true");
+</script>
+
+<script src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/Aplayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+<script>
+    function aplayerbtnInit(){
+        var player = document.querySelectorAll('meting-js')[0].aplayer;
+        player.lrc.hide();
+        var mbabtn = $("#mbaplayer");
+        if(player.paused==false)
+        {
+            mbabtn.removeClass("fa-play-circle-o");
+            mbabtn.addClass("fa-pause-circle");
+        }
+        else
+        {
+            mbabtn.addClass("fa-play-circle-o");
+            mbabtn.removeClass("fa-pause-circle");
+        }
+    }
+
+    function aplayerPlay(){
+        var player = document.querySelectorAll('meting-js')[0].aplayer;
+        var mbabtn = $("#mbaplayer");
+        if(player.paused==true)
+        {
+            player.play();
+            mbabtn.removeClass("fa-play-circle-o");
+            mbabtn.addClass("fa-pause-circle");
+        }
+        else
+        {
+            player.pause();
+            mbabtn.addClass("fa-play-circle-o");
+            mbabtn.removeClass("fa-pause-circle");
+        }
+    }
+</script>
         
         <div class="toc-container">
             
@@ -397,9 +612,9 @@
             </div>
         </div>
     </div>
-    <div id="bgchoice" style="display: none"></div>
+    <div id="bgchoice" style="display: none">default</div>
     
-    <div id="bgurl" style="display:none"></div>
+    <div id="bgurl" style="display:none">\media\images\custom-bgimage.jpg</div>
     
     </div>
 </body>
@@ -480,6 +695,8 @@
 </script>
 
 
+<script src="https://wow-azeroth.github.io//media/js/index.js"></script>
+
 
 
 <!-- 动态更改上(下)一篇博客图片框长宽 -->
@@ -493,7 +710,7 @@
     op.css("height", npheight);
 </script>
 
-<script src="https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com/media/share/dist/Share.js"></script>
+<script src="https://wow-azeroth.github.io//media/share/dist/Share.js"></script>
 
 <script>
     var avatarSrc = $(".avatar").attr("src");
@@ -582,7 +799,7 @@
     });
 </script>
 
-<!-- <script src="https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com/media/js/av-min.js"></script> -->
+<!-- <script src="https://wow-azeroth.github.io//media/js/av-min.js"></script> -->
 <!-- <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@3.13.0/dist/av-min.js"></script> -->
 <!-- <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.6.1/dist/av-live-query-min.js"></script> -->
 

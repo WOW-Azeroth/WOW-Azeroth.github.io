@@ -20,6 +20,92 @@
             <div class="row">
                 <div class="side"><body>
     
+    <div id=side>
+        <div class="avatar-border">
+            <img src="https://wow-azeroth.github.io//images/avatar.png?v=1607440897393" class="avatar">
+        </div>
+        <div class="sitename">荆棘谷的青山</div>
+        <span class="describtion" data-text='["非技术类博客"]'>&nbsp;</span>
+        
+        <div class="search">
+            <!-- <input type="text" class="search-input" placeholder="标题搜索(●'◡'●)" /> -->
+            <input type="text" class="search-input" placeholder="标题搜索 (✿◡‿◡)">
+            <div class="search-results"></div>
+        </div>
+        
+    <div class="share-button">
+        <span>社交按钮</span>
+        
+        
+        
+        
+        
+        
+    </div>
+    <div id="qq" style="display:none"></div>
+    
+    
+    <div class="mchocie describtion">
+        <a href="/" class="menubutton">
+            首页
+        </a>
+    </div>
+    
+    
+    
+    <div class="mchocie describtion">
+        <a href="/tags" class="menubutton">
+            标签
+        </a>
+    </div>
+    
+    
+    
+    <div class="mchocie describtion">
+        <a href="/archives" class="menubutton">
+            时光机
+        </a>
+    </div>
+    
+    
+    
+    <div class="mchocie describtion">
+        <a href="/post/about" class="menubutton">
+            玛拉顿公主
+        </a>
+    </div>
+    
+    
+    
+    <div class="mchocie describtion">
+        <a href="https://wow-azeroth.github.io//talk" class="menubutton">说说</a>
+    </div>
+    
+    
+    <div class="mchocie describtion">
+        <a href="https://wow-azeroth.github.io//friends" class="menubutton">友人帐</a>
+    </div>
+    
+    <hr>
+    <div id="footinfo">Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | Theme: <a
+        href="https://github.com/850552586/gridea-theme-fog">Fog</a></div>
+    
+    
+    <script async src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/busuanzi.pure.mini.js"></script>
+    <div id="vistornum">
+        <span id="busuanzi_container_site_uv">
+            <i class="fa fa-heart" aria-hidden="true" style="color: red;"></i> 总访问量:<span id="busuanzi_value_site_pv"></span>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <i class="fa fa-user-o" aria-hidden="true"></i> 访问人数:<span id="busuanzi_value_site_uv"></span>
+        </span>
+    </div>
+    <div style="color:white">Copyright © 2020  备案号: 鄂ICP备...号</div>
+    
+    </div>
+
+
+<script src="https://wow-azeroth.github.io//media/js/wordshow.js"></script>
+    
+
 
 
 
@@ -157,7 +243,8 @@
 </script>
 </div>
                 
-                <div id="main" class="col-xs-12 col-sm-7" style="width:50%;margin-top:50px;left:27%">
+                <div class="col-md-1 col-lg-3"></div>
+                <div id="main" class="col-xs-12 col-sm-12 col-md-10 col-lg-7">
                     <body">
     <div class="archives-content">
         
@@ -168,7 +255,7 @@
             
             <li><span></span>
                 <div>
-                  <a href="https://wow-azeroth.github.io/ce-shi-bo-wen/" class="post">
+                  <a href="https://wow-azeroth.github.io/post/ce-shi-bo-wen/" class="post">
                     <div class="archives-title">测试博文</div>
                     <div class="archives-time">2020-12-08</div>
                 </a>
@@ -190,7 +277,7 @@
             
             <li><span></span>
                 <div>
-                  <a href="https://wow-azeroth.github.io/hello-gridea/" class="post">
+                  <a href="https://wow-azeroth.github.io/post/hello-gridea/" class="post">
                     <div class="archives-title">Hello Gridea</div>
                     <div class="archives-time">2018-12-12</div>
                 </a>
@@ -252,17 +339,82 @@
                         <div style="padding-bottom:10%"></div>
                     </div>
                 </div>
+                <div class="col-md-1 col-lg-2"></div>
                 
                 <div class="col-xs-6 col-sm-2"></div>
             </div>
             
+                <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+</head>
+<body>
+    <div class="miniMode">
+        <meting-js id="myaplayer" server="netease" type="playlist" fixed="true" order="default">
+        </meting-js>
+    </div>   
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+<script>
+    var aplayerid = "";
+    var aplayerserver = "netease";
+    var aplayerorder = "random";
+    var aplayerautoplay = "true";
+    var aplayer = $("#myaplayer");
+    aplayer.attr("server",aplayerserver);
+    aplayer.attr("id",aplayerid);
+    aplayer.attr("order",aplayerorder);
+    if(aplayerautoplay=="true")
+        aplayer.attr("autoplay","true");
+</script>
+
+<script src="https://cdn.jsdelivr.net/gh/850552586/ericamcdn@0.1/js/Aplayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+<script>
+    function aplayerbtnInit(){
+        var player = document.querySelectorAll('meting-js')[0].aplayer;
+        player.lrc.hide();
+        var mbabtn = $("#mbaplayer");
+        if(player.paused==false)
+        {
+            mbabtn.removeClass("fa-play-circle-o");
+            mbabtn.addClass("fa-pause-circle");
+        }
+        else
+        {
+            mbabtn.addClass("fa-play-circle-o");
+            mbabtn.removeClass("fa-pause-circle");
+        }
+    }
+
+    function aplayerPlay(){
+        var player = document.querySelectorAll('meting-js')[0].aplayer;
+        var mbabtn = $("#mbaplayer");
+        if(player.paused==true)
+        {
+            player.play();
+            mbabtn.removeClass("fa-play-circle-o");
+            mbabtn.addClass("fa-pause-circle");
+        }
+        else
+        {
+            player.pause();
+            mbabtn.addClass("fa-play-circle-o");
+            mbabtn.removeClass("fa-pause-circle");
+        }
+    }
+</script>
+            
         </div>
         <div id="bg">
         </div>
-        <div id="bgchoice" style="display: none">
+        <div id="bgchoice" style="display: none">default
             </div>
             
-            <div id="bgurl" style="display:none"></div>
+            <div id="bgurl" style="display:none">\media\images\custom-bgimage.jpg</div>
                
     </div>
 
@@ -319,14 +471,6 @@
           
           
           <li>
-            <a href="/archives">
-              归档
-            </a>
-          </li>
-          
-          
-          
-          <li>
             <a href="/tags">
               标签
             </a>
@@ -335,13 +479,26 @@
           
           
           <li>
-            <a href="/post/about">
-              关于
+            <a href="/archives">
+              时光机
             </a>
           </li>
           
           
           
+          <li>
+            <a href="/post/about">
+              玛拉顿公主
+            </a>
+          </li>
+          
+          
+          
+          <li><a href="https://wow-azeroth.github.io//talk">说说</a></li>
+          
+          
+          <li><a href="https://wow-azeroth.github.io//friends">友链</a></li>
+
           
         </ul>
       </div><!-- /.navbar-collapse -->
@@ -390,7 +547,7 @@
             
             <li><span></span>
                 <div>
-                  <a href="https://wow-azeroth.github.io/ce-shi-bo-wen/" class="post">
+                  <a href="https://wow-azeroth.github.io/post/ce-shi-bo-wen/" class="post">
                     <div class="archives-title">测试博文</div>
                     <div class="archives-time">2020-12-08</div>
                 </a>
@@ -412,7 +569,7 @@
             
             <li><span></span>
                 <div>
-                  <a href="https://wow-azeroth.github.io/hello-gridea/" class="post">
+                  <a href="https://wow-azeroth.github.io/post/hello-gridea/" class="post">
                     <div class="archives-title">Hello Gridea</div>
                     <div class="archives-time">2018-12-12</div>
                 </a>
@@ -455,3 +612,5 @@
             aplayerbtnInit();
         }
 </script>
+
+    <script src="https://wow-azeroth.github.io//media/js/index.js"></script>
