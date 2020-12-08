@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com</id>
-    <title>Gridea</title>
-    <updated>2020-12-08T03:17:59.772Z</updated>
+    <title>荆棘谷的青山</title>
+    <updated>2020-12-08T03:29:46.821Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com"/>
     <link rel="self" href="https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>非技术类博客</subtitle>
     <logo>https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com/images/avatar.png</logo>
     <icon>https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, 荆棘谷的青山</rights>
     <entry>
         <title type="html"><![CDATA[测试博文]]></title>
         <id>https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com/post/ce-shi-bo-wen/</id>
         <link href="https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com/post/ce-shi-bo-wen/">
         </link>
         <updated>2020-12-08T03:13:07.000Z</updated>
-        <content type="html"><![CDATA[<p>同步测试✏️</p>
+        <content type="html"><![CDATA[<p><img src="https://coding-pages-bucket-3497609-8096172-7326-408039-1304456080.cos-website.ap-hongkong.myqcloud.com/post-images/1607397957757.png" alt="" loading="lazy">同步测试✏️</p>
 ]]></content>
     </entry>
     <entry>
