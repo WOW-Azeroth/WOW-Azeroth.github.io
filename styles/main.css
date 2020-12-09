@@ -2054,12 +2054,12 @@ p > code {
 body {
       background-color: #94d82d;
     }.header {
-        width: 960px;
+        width: Gemini 960px;
         margin: 0 auto;
       }
 
       .main-continer {
-        width: 960px;
+        width: Gemini 960px;
         margin: 0 auto;
       }
     
@@ -2137,7 +2137,14 @@ body {
       transition-property: all;
       transition-duration: 59s;
       transition-timing-function: cubic-bezier(.34,0,.84,1);
-    }.markdownIt-TOC a {
+    }.pisces .blog-header, .gemini .blog-header {
+        right: 0;
+      }
+      .pisces .section-layout-wrapper, .gemini .section-layout-wrapper {
+        flex-direction: row-reverse !important;
+      }.pisces .sidebar, .gemini .sidebar {
+        right: 0;
+      }.markdownIt-TOC a {
       color: #000;
       border-bottom-color: #000;
     }.markdownIt-TOC a:hover {
@@ -2178,6 +2185,8 @@ body {
     }
     .mist .site-title i {
       background: #FFFFFFfe;
+    }.box-scale > #landlord {
+      transform: scale(0.5);
     }.box-shadow-wrapper {
       box-shadow: none !important;
     }body {
